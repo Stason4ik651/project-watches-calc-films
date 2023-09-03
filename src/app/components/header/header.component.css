@@ -1,0 +1,48 @@
+
+.menu {
+  background-color: green;
+  width: 100%;
+}
+
+.watches-menu {
+  background-color: #038fca
+}
+
+.calculator-menu {
+  background-color: #968b8b;
+
+}
+
+.movies-menu {
+  background-color: #c30000;
+}
+
+ul.ul-menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.7%;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: .3s;
+  font-family: 'Quicksand', sans-serif;
+  user-select: none;
+}
+
+li a:hover {
+  transform: scale(1.5);
+}
+
+li.active a {
+  color: black;
+}
+

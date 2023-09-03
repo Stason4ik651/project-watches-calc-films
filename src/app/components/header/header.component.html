@@ -1,0 +1,18 @@
+<header>
+  <div [ngClass]="menuClass || 'menu'">
+    <ul class="ul-menu">
+      <li [routerLinkActiveOptions]="{exact: true}" routerLinkActive="active">
+        <a [routerLink]="['/']">Home</a>
+      </li>
+      <li routerLinkActive="active">
+        <a [routerLink]="['/watches']">WATCHES</a>
+      </li>
+      <li routerLinkActive="active">
+        <a [routerLink]="['/calculator']">CALCULATOR</a>
+      </li>
+      <li routerLinkActive="active">
+        <a [routerLink]="['/movies']">MOVIES</a>
+      </li>
+    </ul>
+  </div>
+</header>
